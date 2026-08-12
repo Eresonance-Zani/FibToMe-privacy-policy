@@ -8,7 +8,7 @@
 
 ## 1. Agreement
 
-By using FibToMe you agree to these terms. If you do not agree, do not use the app. FibToMe is operated by eResonance ("we", "us"). You can reach us at [info@eresonance.ch](mailto:info@eresonance.ch).
+By using FibToMe you agree to these terms. If you do not agree, do not use the app. FibToMe is operated by **eResonance Mauchien**, trading as eResonance ("we", "us"). You can reach us at [info@eresonance.ch](mailto:info@eresonance.ch).
 
 ## 2. What the app does, stated plainly
 
@@ -48,7 +48,7 @@ The app may show an experimental heart-rate estimate derived from a camera. It i
 
 ## 6. Your account
 
-You are responsible for activity under your account and for keeping your sign-in method secure. You may use the app as a guest; guest data is temporary and may be removed automatically after a period of inactivity. Do not create an account if you are under 17.
+You are responsible for activity under your account and for keeping your sign-in method secure. You may use the app as a guest; guest data is temporary and may be removed automatically after a period of inactivity. FibToMe is rated 17+. Do not create an account if you are under 17.
 
 ## 7. Subscriptions and payment
 

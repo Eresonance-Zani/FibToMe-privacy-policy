@@ -8,7 +8,7 @@
 
 ## 1. Who is responsible for your data
 
-FibToMe is operated by **eResonance**. For any privacy question, or to exercise any right described below, contact [info@eresonance.ch](mailto:info@eresonance.ch). We aim to respond within 30 days.
+FibToMe is operated by **eResonance Mauchien** ("eResonance", "we", "us"), the data controller for the purposes of the GDPR. For any privacy question, or to exercise any right described below, contact [info@eresonance.ch](mailto:info@eresonance.ch). We aim to respond within 30 days.
 
 ## 2. What the app collects, and why
 
@@ -102,7 +102,7 @@ The camera-based pulse estimate is **experimental and not a medical measurement*
 
 ## 10. Children
 
-FibToMe is not directed at children and is not intended for anyone under 17. We do not knowingly collect data from children. If you believe a child has provided us data, contact [info@eresonance.ch](mailto:info@eresonance.ch) and we will delete it.
+FibToMe is rated 17+ and is not directed at children. It is not intended for anyone under 17. We do not knowingly collect data from children. If you believe a child has provided us data, contact [info@eresonance.ch](mailto:info@eresonance.ch) and we will delete it.
 
 ## 11. International transfers
 
