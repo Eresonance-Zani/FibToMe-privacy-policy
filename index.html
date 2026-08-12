@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — FibToMe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <nav class="top">
+    <a href="terms.html">Terms of Service</a>
+    <a href="support.html">Support</a>
+  </nav>
+  <h1>Privacy Policy</h1>
+  <p class="sub">FibToMe · Last updated 12 August 2026 · Applies to app version 1.0 and later</p>
+</header>
+
+<div class="card">
+  <p><strong>The short version.</strong> Your recordings stay on your phone. To analyse a recording, the video and its audio are sent to Google's Gemini service and we ask Google to delete them as soon as the analysis comes back. FibToMe's own servers never receive your video. You can delete everything from inside the app, and you can withdraw permission for AI processing at any time without losing access to the rest of the app.</p>
+</div>
+
+<h2>1. Who is responsible for your data</h2>
+<p>FibToMe is operated by <strong>eResonance</strong>. For any privacy question, or to exercise any right described below, contact <a href="mailto:info@eresonance.ch">info@eresonance.ch</a>. We aim to respond within 30 days.</p>
+
+<h2>2. What the app collects, and why</h2>
+
+<h3>Recordings</h3>
+<p>When you record a scan, FibToMe captures video and audio (up to 10 seconds in Standard mode, up to 30 seconds in Extended mode). You can also import a video from your photo library.</p>
+<p><strong>These files are stored on your device only.</strong> They live in the app's private storage, in a folder specific to your account, and are never uploaded to a FibToMe server. Deleting a scan in the app deletes the file.</p>
+
+<h3>Analysis performed on your device</h3>
+<p>Before anything leaves your phone, the app measures several things locally and they never leave the device on their own:</p>
+<ul>
+  <li>Face landmarks and expression events (Apple Vision framework)</li>
+  <li>Audio characteristics such as pitch, pauses and loudness</li>
+  <li>Speech transcription, which is performed <em>on-device</em> — the audio is not sent to Apple for this</li>
+  <li>An experimental pulse estimate read from small colour changes in facial skin</li>
+</ul>
+
+<h3>Account information</h3>
+<p>If you create an account we store your email address, display name, chosen profile photo, and which sign-in method you used (Apple, Google, or email). If you use the app as a guest, an anonymous identifier is created instead and no email is collected.</p>
+
+<h3>Usage and diagnostics</h3>
+<p>We record how many scans you have run in the current month (to enforce subscription limits), crash diagnostics, and basic analytics events such as "a scan started" or "a scan completed". These do not contain your video, audio, or transcript.</p>
+
+<h2>3. What is sent to third parties</h2>
+
+<table>
+  <tr><th>Who</th><th>What is sent</th><th>Why</th></tr>
+  <tr>
+    <td><strong>Google (Gemini API)</strong></td>
+    <td>Your recorded video and its audio track</td>
+    <td>To produce the behavioural analysis. This is the only service that receives your recording.</td>
+  </tr>
+  <tr>
+    <td><strong>Google (Firebase)</strong></td>
+    <td>Account details, analysis results (text and scores), subscription state, crash diagnostics, analytics events</td>
+    <td>Sign-in, syncing your history across devices, crash reporting</td>
+  </tr>
+  <tr>
+    <td><strong>Apple</strong></td>
+    <td>Purchase and subscription information</td>
+    <td>Processing subscriptions through the App Store. Apple handles payment; we never see your card details.</td>
+  </tr>
+</table>
+
+<p>We do <strong>not</strong> sell your personal data, and we do not share it with advertisers or data brokers.</p>
+
+<h3>Your name and email are never sent to the AI service</h3>
+<p>Only the video and audio content is transmitted for analysis. Your name, email address, account identifier and device identifiers are not included in that request.</p>
+
+<h2>4. AI processing requires your explicit permission</h2>
+<p>The first time you start a scan, the app shows a disclosure describing exactly what is sent to Google Gemini and asks you to accept it. Analysis will not run without that acceptance — this is enforced in the app's analysis service, not only in the interface.</p>
+<p>You can review that disclosure, and withdraw your permission, at any time under <strong>Settings → Legal &amp; Privacy → AI Data Processing</strong>. Withdrawing stops future analyses. It does not delete reports you have already generated; delete those individually if you want them removed.</p>
+<p>The app displays a visible indicator while AI analysis is active, in line with the transparency expectations of the EU AI Act.</p>
+
+<h2>5. How long data is kept</h2>
+
+<h3>On your device</h3>
+<p>Your recordings and reports remain until you delete them, or until you delete the app.</p>
+
+<h3>On Google's Gemini servers</h3>
+<p>The video is uploaded for processing. FibToMe requests its deletion as soon as the analysis returns — including when the analysis fails. Google additionally expires uploaded files on its own schedule (currently 48 hours). Anything Google retains beyond our deletion request is governed by <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a>.</p>
+
+<h3>On FibToMe's Firebase project</h3>
+<p>Account data and text analysis results are kept while your account exists, and are deleted when you delete your account.</p>
+
+<h2>6. Optional research participation</h2>
+<p>You may opt in to contribute anonymised data to improve the analysis. This is <strong>off by default</strong> and split into separate categories (behavioural, demographic, longitudinal) that you choose individually.</p>
+<p>Contributed records are not stored against your account identifier. They are keyed by a value derived from your account identifier combined with a secret random value unique to your account. That secret never leaves your device.</p>
+<p>When you delete your account, that secret is destroyed. Once it is gone, the contributed records cannot be linked back to you by anyone — including us — because the key cannot be recomputed. This is why we describe erasure of research contributions as making them permanently anonymous rather than deleting individual rows.</p>
+
+<h2>7. Community posts</h2>
+<p>If you choose to post a result to the FibToMe Community, that post is visible to other signed-in users. Posting is always a separate, explicitly confirmed action — sharing a video to another app never publishes anything to the Community. Posts contain your score and factor summary, not your video and not your name.</p>
+
+<h2>8. Your rights</h2>
+<p>Under the GDPR and comparable laws you have the right to access, correct, export, and erase your data, to restrict or object to processing, and to withdraw consent at any time. In the app:</p>
+<ul>
+  <li><strong>Erase everything</strong> — Settings → Delete Account. This removes your account, your documents, your locally stored videos, and destroys the research key described above. If any part cannot be completed, deletion stops and tells you, rather than leaving data stranded.</li>
+  <li><strong>Withdraw AI consent</strong> — Settings → Legal &amp; Privacy → AI Data Processing</li>
+  <li><strong>Change research participation</strong> — Settings → Research Participation</li>
+  <li><strong>Delete a single scan</strong> — long-press it on Home or in your Profile</li>
+</ul>
+<p>For anything not available in the app, write to <a href="mailto:info@eresonance.ch">info@eresonance.ch</a>. You also have the right to lodge a complaint with your local data protection authority.</p>
+
+<h2>9. What FibToMe is not</h2>
+<p>FibToMe is an educational tool for learning about behavioural signals. It is <strong>not a lie detector</strong>, and its output is not evidence of deception. Scores describe how consistent the measured signals were with one another; they are not calibrated against verified truth and are not probabilities.</p>
+<p>The camera-based pulse estimate is <strong>experimental and not a medical measurement</strong>. It is excluded from scoring. Do not use it for any health decision.</p>
+
+<h2>10. Children</h2>
+<p>FibToMe is not directed at children and is not intended for anyone under 17. We do not knowingly collect data from children. If you believe a child has provided us data, contact <a href="mailto:info@eresonance.ch">info@eresonance.ch</a> and we will delete it.</p>
+
+<h2>11. International transfers</h2>
+<p>Google's Firebase and Gemini services process data on infrastructure that may be located outside your country, including in the United States. These transfers rely on the safeguards Google offers for its services, including Standard Contractual Clauses where applicable.</p>
+
+<h2>12. Security</h2>
+<p>Data in transit is encrypted with HTTPS. Access to stored records is restricted by server-side security rules so that one account cannot read another's data. No system is perfectly secure, and we do not claim otherwise.</p>
+
+<h2>13. Changes to this policy</h2>
+<p>If we change how data is handled in a way that affects you, we will update this page and, where the change concerns AI processing, ask you to review and accept the disclosure again inside the app.</p>
+
+<footer>
+  <p>FibToMe · <a href="mailto:info@eresonance.ch">info@eresonance.ch</a> · <a href="terms.html">Terms of Service</a> · <a href="support.html">Support</a></p>
+</footer>
+
+</div>
+</body>
+</html>
